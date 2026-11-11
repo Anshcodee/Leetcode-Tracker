@@ -27,4 +27,4 @@ if "c" in mydict: --> O(1) OR if "c" in mydict.keys() / if 5 in mydict.values():
 
 >Comparing dictionaries: list(mydic1.values) == list(mydic2.values())
 
-Relevant Qs: 1, 13, 205
+Relevant Qs: 1, 205
