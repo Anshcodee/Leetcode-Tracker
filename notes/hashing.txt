@@ -1,0 +1,30 @@
+Hash Set: 
+Uses hash table to get values. Just like a dictionary
+Only includes unique numbers!
+Unordered (at default) - Ordered set can also be used
+Has O(1) lookup, insertion/deletion 
+>Create: myset = set()
+>Insert: myset.add(n) / myset.update(ds_name)
+>Delete: .clear() / .remove(only for existing items) / .discard(no error even if item does not exist)
+>Lookup: if abc in myset:
+>Set Ops: .union(), .intersection(), .difference() -> A-B, .issubset
+
+Relevant Qs: 202
+
+Dicitionary:
+Key-pair system
+>Creation: mydict = {} / {"a":1} / dict(key-value_tuple)
+
+>Insert: mydict["c"] = 5 / mydict.setdefault("c",5) -> only iserts if c is missing 
+/ .update({multiple key-value pairs})
+/ mydict.[ch] = [] -Then-> mydict[ch] = "" or [""]
+
+>Delete: del mydict["c"] / mydict.pop("c",None) -> Returns the value
+
+>Lookup:
+- Single: mydict.get("c", 0) -> Returns 0 if "c" is not found
+if "c" in mydict: --> O(1) OR if "c" in mydict.keys() / if 5 in mydict.values(): --> O(n)
+
+>Comparing dictionaries: list(mydic1.values) == list(mydic2.values())
+
+Relevant Qs: 1, 13, 205
