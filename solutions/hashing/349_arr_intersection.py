@@ -1,3 +1,4 @@
+# Relatively easy
 class Solution:
     def intersection(self, nums1: list[int], nums2: list[int]) -> list[int]:
         ## V. Faster method
