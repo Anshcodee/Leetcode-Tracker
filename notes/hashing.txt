@@ -9,7 +9,7 @@ Has O(1) lookup, insertion/deletion
 >Lookup: if abc in myset:
 >Set Ops: .union(), .intersection(), .difference() -> A-B, .issubset
 
-Relevant Qs: 202
+Relevant Qs: 202, 500
 
 Dicitionary:
 Key-pair system
